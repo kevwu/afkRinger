@@ -1,0 +1,15 @@
+name: afkRinger
+main: org.kywu.afkRinger.afkRinger
+version: 1.0
+author: Kevin Wu
+
+database: false
+startup: postworld
+
+description: Sends a client-side tone to an AFK player who has Minecraft minimized to get their attention.
+website: http://github.com/kevwu/
+
+commands:
+  ring:
+    description: Sends a tone to another player to get their attention.
+    usage: "Usage: /ring [player] [optional effect]"
